@@ -56,7 +56,7 @@ var config = cc({
   REVEAL_SOCKET_SECRET : process.env.REVEAL_SOCKET_SECRET || "master"
 , WEBSOCKET_ENABLED : process.env.WEBSOCKET_ENABLED || "true"
 , DEFAULT_GIST : process.env.DEFAULT_GIST || '7d192ed8229e8213dcead015f65d24eb' //'af84d40e58c5c2a908dd'
-, REVEAL_THEME : process.env.REVEAL_THEME || '60e54843de11a545897e'
+, REVEAL_THEME : process.env.REVEAL_THEME || 'coreos' //'60e54843de11a545897e'
 , DEBUG : Number(process.env.DEBUG) || 0
 , GIST_THEMES : process.env.GIST_THEMES || "true"
 , GH_CLIENT_ID : process.env.GH_CLIENT_ID
