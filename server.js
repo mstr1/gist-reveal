@@ -53,7 +53,7 @@ var bitly_short_names = [];
 var bitly_gist_ids = [];
 
 var config = cc({
-  REVEAL_SOCKET_SECRET : process.env.REVEAL_SOCKET_SECRET || (Math.floor(Math.random()*1000).toString() + new Date().getTime().toString())
+  REVEAL_SOCKET_SECRET : process.env.REVEAL_SOCKET_SECRET || "master"
 , WEBSOCKET_ENABLED : process.env.WEBSOCKET_ENABLED || "true"
 , DEFAULT_GIST : process.env.DEFAULT_GIST || '7d192ed8229e8213dcead015f65d24eb' //'af84d40e58c5c2a908dd'
 , REVEAL_THEME : process.env.REVEAL_THEME || '60e54843de11a545897e'
